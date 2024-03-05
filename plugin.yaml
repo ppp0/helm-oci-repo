@@ -1,0 +1,9 @@
+name: "gar"
+version: "0.0.1"
+usage: "Chart repositories on Google Artifacts Repository"
+description: |-
+  Manage repositories on Google Artifacts Repository
+command: "$HELM_PLUGIN_DIR/bin/helm-gar"
+hooks:
+  install: echo Helm Plugin gar is now installed
+  update: echo Helm Plugin gar is now updates
